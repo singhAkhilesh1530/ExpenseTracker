@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS For Beginners</title>
+  </head>
+  <body>
+    <header>
+      <h1>JS For Beginners</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form">
+        <h1>Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="amt">Expense Amount:</label>
+          <input type="text" id="amt">
+        
+          <label for="dsc">Email:</label>
+          <input type="text" id="dsc">
+        
+          <label for="ctg">Category:</label>
+          <select name="category" id="ctg">
+            <option value="fuel">Fuel</option>
+            <option value="food">Food</option>
+            <option value="travel">Travel</option>
+            <option value="movie">Movie</option>
+          </select>
+
+          <input class="btn" type="submit" value="Add Expense">
+        </div>
+      </form>
+
+      <ul id="users"></ul>
+
+      <ul class="list-group" id="items">
+        <!-- <li class="list-group-item"></li> -->
+      </ul>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
